@@ -11,8 +11,8 @@ body, html {
 }
 
 #intro {
-	background-image: url("../images/czech-mountains-2.jpg");
-	filter: brightness(60%);
+	background-image: url("../images/nice-polish-mountains-view.jpg");
+	filter: brightness(75%);
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -63,7 +63,7 @@ p, span {
 }
 
 .bg-1 {
-	background-color: #DEB887;
+	background-color: #001f3f;
 	color: #ffffff;
 }
 
@@ -117,6 +117,14 @@ p, span {
 #portfolio > div > div > div > figure > a > img:hover {
 	width: 100%;
 	height: 100%;
+}
+
+.rotate180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 @keyframes fromRight {
